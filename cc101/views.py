@@ -13,3 +13,6 @@ def cc101_view(request):
 def cclab_view(request):
     return HttpResponse("Welcome to CurioCity Lab. Become a mad scientist")
 # Create your views here.
+
+def rohit(request):
+    return render(request,'rohit.html')
